@@ -1,0 +1,2 @@
+[0829/152407.104:ERROR:file_io_win.cc(179)] CreateFile C:\Users\HP\AppData\Local\Microsoft\Edge\User Data\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[1013/233133.025:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
