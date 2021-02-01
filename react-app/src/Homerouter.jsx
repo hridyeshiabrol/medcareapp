@@ -10,23 +10,22 @@ function Homerouter() {
   return (
     <>
       <Switch>
-         <Route path="/" exact component={frontPage}></Route>
-          <Route path="/Dashboard" exact component={Dashboard}></Route>
-          <Route path="/UserProfileForm" exact component={UserProfileForm}></Route>
-          <Route path="/MedicineManager" exact component={MedicineManager}></Route>
-          <Route path="/AvailMedicine" exact component={AvailMedicine}></Route>
-          <Route path="/MedicineFinder" exact component={MedicineFinder}></Route>
+        <Route path="/" exact component={frontPage}></Route>
+        <Route path="/Dashboard" exact component={Dashboard}></Route>
+        <Route path="/UserProfileForm" exact component={UserProfileForm}></Route>
+        <Route path="/MedicineManager" exact component={MedicineManager}></Route>
+        <Route path="/AvailMedicine" exact component={AvailMedicine}></Route>
+        <Route path="/MedicineFinder" exact component={MedicineFinder}></Route>
       </Switch>
     </>
   );
 }
 
- function frontPage()
-{
+function frontPage() {
   return (
     <h2>Welcome Page<br></br>
     </h2>
   );
-} 
+}
 
 export default Homerouter;
